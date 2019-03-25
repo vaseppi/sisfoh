@@ -91,7 +91,7 @@
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
-          <img src="assets/dist/img/avatar5.png">
+          <img src="assets/dist/img/avatar5.png"> 
       </div>
 
       <!-- sidebar menu: : style can be found in sidebar.less -->
@@ -183,174 +183,94 @@
           <!-- Custom tabs (Charts with tabs)-->
           <div class="nav-tabs-custom">
 
+
+            <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item active">
+                <a class="nav-link active" id="personal-tab" data-toggle="tab" href="#personal" role="tab" aria-controls="personal" aria-selected="true">Data Pribadi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Pendidikan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Keluarga</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Berkas</a>
+              </li>
+            </ul>
+            <!-- Nav tabs End -->
 
-                <li class="nav-item">
-                    <a class="nav-link active" id="datapribadi-tab" data-toggle="tab" href="#datapribadi" role="tab" aria-controls="datapribadi" aria-selected="true">Data Pribadi</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Data Pendidikan</a>
-                </li>
-                    
-                <li class="nav-item">
-                      <a class="nav-link" id="family-tab" data-toggle="tab" href="#family" role="tab" aria-controls="family" aria-selected="false">Data family</a>
-                </li>
-
-                <li class="nav-item">
-                        <a class="nav-link" id="file-tab" data-toggle="tab" href="#file" role="tab" aria-controls="file" aria-selected="false">Berkas</a>
-                  </li>
-             </ul>
-
-
-
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="datapribadi" role="tabpanel" aria-labelledby="datapribadi-tab">
-                    
-                        <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Nama Lengkap</th>
-                                        <th scope="col">Alexander Pierce</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Nama Pangilan</th>
-                                        <td>Pierce</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">NIK</th>
-                                        <td>123456789</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Tanggal Lahir</th>
-                                        <td>Hari, Bulan, Tahun</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Alamat</th>
-                                        <td>Jl. ABCD</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">No Telp</th>
-                                        <td>08123456789</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Email Perusahaan</th>
-                                        <td>lorem@ipsum.com</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Email Pribadi</th>
-                                        <td>lorem@ipsum.com</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Agama</th>
-                                        <td>Agamanya Naon?</td>
-                                    </tr>
-                
-                                    <tr>
-                                        <th scope="row">Status Perkawinan</th>
-                                        <td>JOMBLO</td>
-                                    </tr>
-                    
-                
-                                </tbody>
-                            </table>
-
-                </div>
-
-
-                <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- personal Information-->
+              <div class="tab-pane active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
                   
                   <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">Nama Lengkap</th>
-                            <th scope="col">Alexander Pierce</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Nama Pangilan</th>
-                            <td>Pierce</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">NIK</th>
-                            <td>123456789</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Tanggal Lahir</th>
-                            <td>Hari, Bulan, Tahun</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Alamat</th>
-                            <td>Jl. ABCD</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">No Telp</th>
-                            <td>08123456789</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Email Perusahaan</th>
-                            <td>lorem@ipsum.com</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Email Pribadi</th>
-                            <td>lorem@ipsum.com</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Agama</th>
-                            <td>Agamanya Naon?</td>
-                        </tr>
-    
-                        <tr>
-                            <th scope="row">Status Perkawinan</th>
-                            <td>JOMBLO</td>
-                        </tr>
-        
-    
-                    </tbody>
-                </table>  
+                      <thead>
+                          <tr>
+                              <th scope="col">Nama Lengkap</th>
+                              <th scope="col">Alexander Pierce</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">Nama Pangilan</th>
+                              <td>Pierce</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">NIK</th>
+                              <td>123456789</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Tanggal Lahir</th>
+                              <td>Hari, Bulan, Tahun</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Alamat</th>
+                              <td>Jl. ABCD</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">No Telp</th>
+                              <td>08123456789</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Email Perusahaan</th>
+                              <td>lorem@ipsum.com</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Email Pribadi</th>
+                              <td>lorem@ipsum.com</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Agama</th>
+                              <td>Agamanya Naon?</td>
+                          </tr>
+      
+                          <tr>
+                              <th scope="row">Status Perkawinan</th>
+                              <td>JOMBLO</td>
+                          </tr>
+          
+      
+                      </tbody>
+                  </table>
+              </div>
 
 
-
-
-
-
-                </div>
-
-                <div class="tab-pane fade" id="family" role="tabpanel" aria-labelledby="family-tab">
-                    Ini Adalah Data family
-                </div>
-
-                <div class="tab-pane fade" id="file" role="tabpanel" aria-labelledby="file-tab">
-                    Ini Adalah Berkas
-                </div>
-
+              <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">Ipsyum</div>
+              <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
+              <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
             </div>
-
-
-
-
-
-
-
-
-
+            <!-- Tab panes End-->
+            
 
 
 
